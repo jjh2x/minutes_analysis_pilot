@@ -5,7 +5,7 @@ okt = Okt()
 vectorizer = TfidfVectorizer()
 
 # 바탕화면의 '메모장 크롤링 테스트.txt' 파일 불러오기.
-f = open("C:/Users/jjh37/Desktop/메모장 크롤링 테스트.txt", 'r', encoding='UTF8')
+f = open("/home/jjh2x/PycharmProjects/wikiextractor/text/text_merged.txt", 'r', encoding='UTF8')
 # 메모장 파일의 내용을 줄 단위(엔터 기준)로 나누어 'sentences' 변수에 리스트 형태로 저장.
 sentences = f.readlines()
 f.close()
